@@ -1,0 +1,37 @@
+2025/04/05:
+- Created the main scene with the first tester pack
+- Created the background for the stats scene
+- Created the script for producing the test of the stats scene and keeping track of the text
+- Created the starting page for opening the tester pack
+- Implemented the generic button script to highlight on hover and change scene on click
+- Created the number generation for generating pack rarity
+- Tested generating packs with a smaller sample size of cards (Green cards and half of blue) and a default pack
+
+TO DO:
+- Make the stats change as you open packs
+- Optimize the pack opening code to make it run faster
+- Test generating different types of packs other than the default pack
+
+
+2025/04/06:
+- Made it so the stats page updated based on the number of packs opened
+- Added a return button to the open EB01 scene that takes the player back to the select pack screen
+- Added animations for removing the pack cover and card when clicked
+- Finished the prefabs for the generation of the smaller sample size of cards
+- Finished the generation function for a default pack
+- Finished the generation function for a leader pack
+- Finished the generation function for an SR pack
+- Finished the generation function for an AA pack
+- Finished the generation function for an AAL pack
+- Finished the generation function for a SEC pack
+- Finished the generation function for a manga pack
+- Finished animations for opening the pack
+- Added sfx for opening the pack wrapper, opening a common/rare card, opening an SR, opening an AA, opening an AAL, and opening a manga
+- Added the remainder of the cards
+- Added a title screen and a quit button to the select packs screen
+
+TO DO:
+For now any further additions are put on hold due to exam season. Possible next steps:
+- Skip to hit button that shows the last card of the pack
+- TCGplayer integration to see profit/loss based on market value of cards and packs
+- History to show past hits
